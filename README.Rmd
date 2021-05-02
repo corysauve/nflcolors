@@ -18,19 +18,19 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of nflcolors is to provide 
+The goal of nflcolors is to provide easy access to NFL team colors and palettes.
 
 ## Installation
 
 You can install nflcolors from [GitHub](https://github.com/) with:
-
 ```{r  eval=FALSE}
 # install.packages("devtools")
 devtools::install_github("corysauve/nflcolors")
 ```
+
 ## Basic Usage 
 
-`nflcolors` has palettes for all 32 teams in the National Football League (NFL). Colors are sourced from primary uniforms and logos. All teams are accessed via their team abbreviation.
+nflcolors has palettes for all 32 teams in the National Football League (NFL). Colors are sourced from primary uniforms and logos. All teams are accessed via their team abbreviation.
 ```{r team-names}
 library(nflcolors)
 
@@ -45,8 +45,6 @@ You can also select a specific number of colors.
 ```{r specific-colors}
 kc_palette <- team_colors("KC", 2)
 ```
-
-
 ## Available Palettes 
 ```{r out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
 print.palette <- function(x, ...) {
@@ -58,7 +56,7 @@ print.palette <- function(x, ...) {
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
   rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, col = "#32373D")
+  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 2, col = "#32373D")
 }
 
 pals <- names(teams)

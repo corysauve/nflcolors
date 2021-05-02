@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of nflcolors is to provide
+The goal of nflcolors is to provide easy access to NFL team colors and
+palettes.
 
 ## Installation
 
@@ -19,9 +20,9 @@ devtools::install_github("corysauve/nflcolors")
 
 ## Basic Usage
 
-`nflcolors` has palettes for all 32 teams in the National Football
-League (NFL). Colors are sourced from primary uniforms and logos. All
-teams are accessed via their team abbreviation.
+nflcolors has palettes for all 32 teams in the National Football League
+(NFL). Colors are sourced from primary uniforms and logos. All teams are
+accessed via their team abbreviation.
 
 ``` r
 library(nflcolors)
