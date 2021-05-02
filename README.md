@@ -49,3 +49,20 @@ kc_palette <- team_colors("KC", 2)
 ## Available Palettes
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-2.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-3.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-4.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-5.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-6.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-7.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-8.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-9.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-10.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-11.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-12.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-13.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-14.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-15.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-16.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-17.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-18.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-19.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-20.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-21.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-22.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-23.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-24.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-25.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-26.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-27.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-28.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-29.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-30.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-31.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-32.png" width="350px" />
+
+## Contributing
+
+I welcome any contributions or suggestions for improving the package!
+Please open an issue to do so.
+
+## License
+
+The nflcolors package is licensed under the MIT License. Please see the
+[LICENSE](LICENSE.md) for more details.
+
+## Acknowledgments
+
+Inspiration for this package originally came from the wonderful
+[nationalparkcolors](https://github.com/katiejolly/nationalparkcolors)
+package, which provides color palettes for various National Park
+posters.

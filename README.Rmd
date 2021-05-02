@@ -64,3 +64,16 @@ for (pal in pals){
   print.palette(team_colors(pal))
 }
 ```
+
+## Contributing 
+
+I welcome any contributions or suggestions for improving the package! Please open an issue to do so.
+
+## License 
+
+The nflcolors package is licensed under the MIT License. Please see the [LICENSE](LICENSE.md) for more details.
+
+## Acknowledgments 
+
+Inspiration for this package originally came from the wonderful [nationalparkcolors](https://github.com/katiejolly/nationalparkcolors) package, which provides color palettes for various National Park posters.
+
