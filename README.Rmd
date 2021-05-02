@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# nflcolors
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of nflcolors is to provide 
+
+## Installation
+
+You can install nflcolors from [GitHub](https://github.com/) with:
+
+```{r  eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("corysauve/nflcolors")
+```
+## Basic Usage 
+
+`nflcolors` has palettes for all 32 teams in the National Football League (NFL). Colors are sourced from primary uniforms and logos. All teams are accessed via their team abbreviation.
+```{r team-names}
+library(nflcolors)
+
+names(teams)
+```
+You can create a team palette with `team_colors()`, along with an image of the palette.
+```{r team-colors}
+kc_palette <- team_colors("KC")
+```
+
+You can also select a specific number of colors. 
+```{r specific-colors}
+kc_palette <- team_colors("KC", 2)
+```
+
+
+## Available Palettes 
+```{r out.width="300px", echo = FALSE, warning = FALSE, message = FALSE}
+print.palette <- function(x, ...) {
+  n <- length(x)
+  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(par(old))
+
+  image(1:n, 1, as.matrix(1:n), col = x,
+        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+
+  rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
+  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, col = "#32373D")
+}
+```
