@@ -1,5 +1,5 @@
 Package: nflcolors
-Title: What the Package Does (One Line, Title Case)
+Title: Generate NFL team colors
 Version: 0.0.0.9000
 Authors@R: person("Cory", "Sauve", email = "coryjsauve@gmail.com",
                   role = c("aut", "cre"))

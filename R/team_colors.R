@@ -79,5 +79,3 @@ print.palette <- function(x, ...) {
   rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
   text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 2, col = "#32373D")
 }
-
-?text()
