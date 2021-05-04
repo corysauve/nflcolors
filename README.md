@@ -46,9 +46,66 @@ You can also select a specific number of colors.
 kc_palette <- team_colors("KC", 2)
 ```
 
-## Available Palettes
+## Available Team Palettes
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-2.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-3.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-4.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-5.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-6.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-7.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-8.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-9.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-10.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-11.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-12.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-13.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-14.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-15.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-16.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-17.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-18.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-19.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-20.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-21.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-22.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-23.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-24.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-25.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-26.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-27.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-28.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-29.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-30.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-31.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-32.png" width="350px" />
+-   [**AFC South**](#AFC-South)
+-   [**AFC East**](#AFC-East)
+-   [**AFC North**](#AFC-North)
+-   [**AFC West**](#AFC-West)
+-   [**NFC South**](#NFC-South)
+-   [**NFC East**](#NFC-East)
+-   [**NFC North**](#NFC-North)
+-   [**NFC West**](#NFC-West)
+
+<br>
+
+### AFC South
+
+<img src="man/figures/README-afc-south-1.png" width="350px" /><img src="man/figures/README-afc-south-2.png" width="350px" /><img src="man/figures/README-afc-south-3.png" width="350px" /><img src="man/figures/README-afc-south-4.png" width="350px" />
+
+<br>
+
+### AFC East
+
+<img src="man/figures/README-afc-east-1.png" width="350px" /><img src="man/figures/README-afc-east-2.png" width="350px" /><img src="man/figures/README-afc-east-3.png" width="350px" /><img src="man/figures/README-afc-east-4.png" width="350px" />
+
+<br>
+
+### AFC North
+
+<img src="man/figures/README-afc-north-1.png" width="350px" /><img src="man/figures/README-afc-north-2.png" width="350px" /><img src="man/figures/README-afc-north-3.png" width="350px" /><img src="man/figures/README-afc-north-4.png" width="350px" />
+
+<br>
+
+### AFC West
+
+<img src="man/figures/README-afc-west-1.png" width="350px" /><img src="man/figures/README-afc-west-2.png" width="350px" /><img src="man/figures/README-afc-west-3.png" width="350px" /><img src="man/figures/README-afc-west-4.png" width="350px" />
+
+<br>
+
+### NFC South
+
+<img src="man/figures/README-nfc-south-1.png" width="350px" /><img src="man/figures/README-nfc-south-2.png" width="350px" /><img src="man/figures/README-nfc-south-3.png" width="350px" /><img src="man/figures/README-nfc-south-4.png" width="350px" />
+
+<br>
+
+### NFC East
+
+<img src="man/figures/README-nfc-east-1.png" width="350px" /><img src="man/figures/README-nfc-east-2.png" width="350px" /><img src="man/figures/README-nfc-east-3.png" width="350px" /><img src="man/figures/README-nfc-east-4.png" width="350px" />
+
+<br>
+
+### NFC North
+
+<img src="man/figures/README-nfc-north-1.png" width="350px" /><img src="man/figures/README-nfc-north-2.png" width="350px" /><img src="man/figures/README-nfc-north-3.png" width="350px" /><img src="man/figures/README-nfc-north-4.png" width="350px" />
+
+<br>
+
+### NFC West
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-2.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-3.png" width="350px" /><img src="man/figures/README-unnamed-chunk-3-4.png" width="350px" />
+
+<br>
 
 ## Contributing
 

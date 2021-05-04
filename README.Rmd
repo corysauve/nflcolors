@@ -45,8 +45,22 @@ You can also select a specific number of colors.
 ```{r specific-colors}
 kc_palette <- team_colors("KC", 2)
 ```
-## Available Palettes 
-```{r out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+
+## Available Team Palettes
+
+* [**AFC South**](#AFC-South) 
+* [**AFC East**](#AFC-East) 
+* [**AFC North**](#AFC-North) 
+* [**AFC West**](#AFC-West) 
+* [**NFC South**](#NFC-South) 
+* [**NFC East**](#NFC-East) 
+* [**NFC North**](#NFC-North) 
+* [**NFC West**](#NFC-West)
+
+<br>
+
+### AFC South
+```{r afc-south, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
@@ -59,11 +73,91 @@ print.palette <- function(x, ...) {
   text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 2, col = "#32373D")
 }
 
-pals <- names(teams)
-for (pal in pals){
+afcsouth <- names(teams[c("TEN", "IND", "HOU", "JAX")])
+
+for (pal in afcsouth){
   print.palette(team_colors(pal))
 }
 ```
+
+<br>
+
+### AFC East 
+```{r afc-east, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+afceast <- names(teams[c("BUF", "MIA", "NE", "NYJ")])
+
+for (pal in afceast){
+  print.palette(team_colors(pal))
+}
+```
+
+<br>
+
+### AFC North
+```{r afc-north, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+afcnorth <- names(teams[c("PIT", "BAL", "CLE", "CIN")])
+
+for (pal in afcnorth){
+  print.palette(team_colors(pal))
+}
+```
+
+<br>
+
+### AFC West
+```{r afc-west, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+afcwest <- names(teams[c("KC", "LV", "LAC", "DEN")])
+
+for (pal in afcwest){
+  print.palette(team_colors(pal))
+}
+```
+
+<br>
+
+### NFC South
+```{r nfc-south, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+nfcsouth <- names(teams[c("NO", "TB", "CAR", "ATL")])
+
+for (pal in nfcsouth){
+  print.palette(team_colors(pal))
+}
+```
+
+<br>
+
+### NFC East
+```{r nfc-east, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+nfceast <- names(teams[c("WAS", "NYG", "DAL", "PHI")])
+
+for (pal in nfceast){
+  print.palette(team_colors(pal))
+}
+```
+
+<br>
+
+### NFC North
+```{r nfc-north, out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+nfcnorth <- names(teams[c("GB", "CHI", "MIN", "DET")])
+
+for (pal in nfcnorth){
+  print.palette(team_colors(pal))
+}
+```
+ 
+<br>
+
+### NFC West 
+```{r out.width="350px", echo = FALSE, warning = FALSE, message = FALSE}
+nfcwest <- names(teams[c("SEA", "LAR", "ARZ", "SF")])
+
+for (pal in nfcwest){
+  print.palette(team_colors(pal))
+}
+```
+
+<br>
 
 ## Contributing 
 
